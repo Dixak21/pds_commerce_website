@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multivendor Website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="add_seller.css">
+
+    <!-- swiper file link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> PDS-SHOPPING </a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="login-btn"class="fas fa-user"></div>
+                    
+                </div>
+                
+            </div>
+
+           
+        </div>
+        <nav style="background:  #27ae60;">
+            <div class="wrapper">
+                <input type="radio" name="slider" id="menu-btn">
+                <input type="radio" name="slider" id="close-btn">
+                <ul class="nav-links">
+                    <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+                    <li><a href="#home">Home</a></li>
+                    <li>
+                        <a href="#categories" class="desktop-item">Categories</a>
+                        <input type="checkbox" id="showMega">
+                        <label for="showMega" class="mobile-item">Categories</label>
+                        <div class="mega-box">
+                            <div class="content">
+                                <div class="row">
+                                    <header>Fashion</header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Kids</a></li>
+                                        <li><a href="#">Men</a></li>
+                                        <li><a href="#">Women</a></li>
+                                        <li><a href="#">Accesories</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header>Beauty</header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Skincare</a></li>
+                                        <li><a href="#">Cosmetics</a></li>
+                                        <li><a href="#">Tools & Brushes</a></li>
+                                        <li><a href="#">Kits & Combos</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header>Appliances</header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Electronics</a></li>
+                                        <li><a href="#">Automotive</a></li>
+                                        <li><a href="#">Smart Wearables</a></li>
+                                        <li><a href="#">Home Theatres</a></li>
+                                    </ul>
+                                </div>
+                                <div class="row">
+                                    <header>Department</header>
+                                    <ul class="mega-links">
+                                        <li><a href="#">Luggage</a></li>
+                                        <li><a href="#">Household</a></li>
+                                        <li><a href="#">Home Decor</a></li>
+                                        <li><a href="#">Health & Care</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#arrivals">Arrivals</a></li>
+
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                </ul>
+                <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+            </div>
+        </nav>
+    </header>
+<!-- login form -->
+  
+<div class="login-form-container">
+  
+    <div id="close-login-btn" class="fas fa-times"></div>
+  
+    <form action="">
+        <h3>log in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="log in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="seller.html">create one</a></p>
+    </form>
+  
+  </div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <span><b>Grow Your Buisness</b></span>
+            <h3>Sell With Us</h3>
+            <a href="seller.html" class="btn">Sell Now</a>
+        </div>
+
+        <div class="image">
+            <img src="image/6029521.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- how it works section starts  -->
+
+    <section class="category">
+
+        <h1 class="heading"> Why Sell On <span>PDS-SHOPPING</span> ?</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/payment-method.png" alt="" style="margin-top: 10px;">
+                <div class="content">
+
+                    <h4>Receive timely payments</h4>
+                    <h5>PDS-SHOPPING ensures your payments are deposited directly in your bank account within 7-14 days.
+                    </h5>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/customer.png" alt="">
+                <div class="content">
+                    <h4>Increase reach of customers</h4>
+                    <h5>Sell to crores of engaged customer visiting PDS-SHOPPING.in on desktop and through our mobile
+                        app.</h5>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/shipped.png" alt="">
+                <div class="content">
+                    <h4>Hassel-free delivery</h4>
+                    <h5>Deliver to 100% of India's serviceable pincodes, through Easy Ship & Fulfillment by
+                        PDS-SHOPPING.</h5>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--how it works section ends -->
+    <!--reviews start-->
+    <section>
+        <div class="container">
+            <div class="section-title">
+                <h2><b>Testimonials</b></h2>
+                <span class="section-separator"></span>
+                <p><b> Ipsum is simply dummy text of the printing and typesetting industry.</b></p>
+            </div>
+        </div>
+        <div class="testimonials-carousel-wrap">
+            <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right"
+                    style="color: #fff; padding: 19px;"></i></div>
+            <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left"
+                    style="color: #fff; padding: 20px;"></i></div>
+            <div class="testimonials-carousel">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="image/di.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+
+                                    <div class="testimonials-avatar">
+                                        <h3>John Doe</h3>
+                                        <h4>Owner</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+
+                        <!--second--->
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="image/3.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+
+                                    <div class="testimonials-avatar">
+                                        <h3>Doe Boe</h3>
+                                        <h4>Owner</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+                        <!--third-->
+
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="image/4.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+
+                                    <div class="testimonials-avatar">
+                                        <h3>Boe Doe</h3>
+                                        <h4>Vendor</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+
+                        <!--fourth-->
+                        <div class="swiper-slide">
+                            <div class="testi-item">
+                                <div class="testi-avatar"><img src="image/21.jpg"></div>
+                                <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                                <div class="testimonials-text">
+                                    <div class="listing-rating">
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+
+                                    <div class="testimonials-avatar">
+                                        <h3>Doe John</h3>
+                                        <h4>Designer</h4>
+                                    </div>
+                                </div>
+                                <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div>
+                            </div>
+                        </div>
+                        <!--testi end-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="tc-pagination"></div>
+        </div>
+    </section>
+
+    <!--reviews end-->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="image">
+            <img src="image/Ecommerce campaign-pana.png" alt="" class="center">
+        </div>
+
+        <div class="content">
+            <h3><b>why choose us?</b></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam quaerat dolor voluptas nobis
+                voluptates illum? Inventore voluptas dolore voluptates.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex delectus ducimus dignissimos pariatur. Amet
+                sed distinctio earum dolorum nulla, in obcaecati aliquid modi quos magni ducimus culpa nobis laudantium
+                incidunt.</p>
+            <a href="#"><button class="btn">learn more</button></a>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+    <!-- footer  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3> PDS-SHOPPING <i class="fas fa-shopping-basket"></i> </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> XYZ@gmail.com </a>
+                <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email" class="email">
+                <input type="submit" value="subscribe" class="btn">
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span> PDS </span> | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="add_seller_scripts.js"></script>
+
+</body>
+
+</html>
